@@ -25,14 +25,14 @@ function LoginForm(props) {
       {(formik) => (
         <Form>
           <FormikControl
-            control="input"
+            control="chakraInput"
             name="email"
             type="email"
             label="Email"
           />
           <FormikControl
             autoComplete="on"
-            control="input"
+            control="chakraInput"
             name="password"
             type="password"
             label="Password"
